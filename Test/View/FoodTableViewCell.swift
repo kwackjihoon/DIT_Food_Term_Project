@@ -19,6 +19,7 @@ class FoodTableViewCell: UITableViewCell {
         // Initialization code
         icon.layer.cornerRadius = icon.frame.width / 8.0
         icon.clipsToBounds = true
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
