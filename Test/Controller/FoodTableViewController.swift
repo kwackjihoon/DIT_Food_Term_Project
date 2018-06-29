@@ -37,7 +37,8 @@ class FoodTableViewController: UITableViewController,MKMapViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.title = "배달통통"
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
